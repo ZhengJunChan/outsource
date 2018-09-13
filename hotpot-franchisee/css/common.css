@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+img,
+input,
+textarea,
+button {
+  outline: none;
+  border: none;
+}
+
+input{
+  -webkit-appearance: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input{
+  -webkit-appearance: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+
+
+
+/**
+ * [text_nowrap_ellipsis 文字超出后添加省略号]
+ * @Author   郑君婵
+ * @DateTime 2017-06-30
+ */
+
+.text_nowrap_ellipsis{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+
+
+/**
+ * [clear_float 清除浮动]
+ * @Author   郑君婵
+ * @DateTime 2017-06-30
+ */
+
+.clear_float {
+  zoom: 1;
+}
+
+.clear_float:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0
+}
+
+
+
+
+
+/**
+ * [clear_float 向左浮动]
+ * @Author   郑君婵
+ * @DateTime 2017-07-1
+ */
+
+.fl {
+  float: left;
+}
+
+
+
+
+
+/**
+ * [clear_float 向右浮动]
+ * @Author   郑君婵
+ * @DateTime 2017-07-1
+ */
+
+.fr {
+  float: right;
+}
+
+.header{
+  color: #fff;
+  height: 107px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #0c0c0c;
+}
+
+.header .navs{
+  display: inline-block;
+  position: relative;
+}
+
+.header .nav{
+  width: 110px;
+  padding-top: 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+.header .nav a{
+  padding: 0 10px 20px 10px;
+}
+
+.header .nav .selected{
+  border-bottom: 4px solid #d50302;
+}
+
+.header .nav.logo{
+  width: 250px;
+}
+
+.header .logo a{
+  position: absolute;
+  display: block;
+  width: 220px;
+  top: 0;
+  left: 50%;
+  margin-left: -110px;
+}
+
+.header .logo a img{
+  width: 100%;
+}
+
+.min_content{
+  min-width: 1300px;
+}
+
+.white_more_btn {
+    color: #000;
+    width: 180px;
+    height: 48px;
+    margin: 40px auto 0;
+    line-height: 48px;
+    text-align: center;
+    display: block;
+    background-color: #fff;
+}

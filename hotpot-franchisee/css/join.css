@@ -1,0 +1,129 @@
+.jiameng_liuchen {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 50px 0 70px
+}
+
+.jiameng_liuchen>div {
+    display: inline-block;
+}
+
+.jiameng_liuchen h2 {
+    font-weight: normal;
+    border-bottom: 1px solid #c3bfbf;
+    padding: 30px 0;
+    margin-bottom: 60px;
+}
+
+.jiameng_liuchen ul {
+    width: 1200px;
+}
+
+.jiameng_liuchen .item {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    color: #615f5f;
+    border-radius: 50%;
+    border: 2px solid #000;
+    padding: 30px 15px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.jiameng_liuchen .item+.item {
+    margin-left: 60px;
+}
+
+.biaodian {
+    padding: 70px 0;
+    text-align: center;
+    background-color: #201d1e;
+}
+
+.andachu_desc {
+    padding: 50px;
+    background-color: #f7f7f7;
+}
+
+.andachu_desc>div {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.news {
+    color: #fff;
+    padding: 50px 0;
+    background-color: #000;
+}
+
+.news>div {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.news .title {
+    text-align: center;
+    font-weight: normal;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.news .clear_float {
+    position: relative;
+}
+
+.news .item {
+    width: 48%;
+    display: block;
+    padding: 30px 30px 30px 220px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+
+.news .item:nth-child(odd) {
+    float: left;
+}
+
+.news .item:nth-child(even) {
+    float: right;
+}
+
+.news .cover_img {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.news .min_title {
+    font-weight: normal;
+}
+
+.news .desc {
+    font-size: 14px;
+    line-height: 26px;
+    height: 50px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.news .read,
+.news .time {
+    font-size: 12px;
+    padding: 0 25px;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.news .read{
+    background-image: url(./../imgs/join/icon_join_read.png);
+}
+
+.news .time{
+    background-image: url(./../imgs/join/icon_join_time.png);
+}
