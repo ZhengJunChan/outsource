@@ -27,7 +27,7 @@
             <li class="nav"><a href="./plan.html">品牌策划</a></li>
             <li class="nav logo"><a href="./index.html"><img src="./imgs/radius-logo.png"></a></li>
             <li class="nav"><a href="./about.html">关于我们</a></li>
-            <li class="nav"><a href="./dynamic/index.html">公司动态</a></li>
+            <li class="nav"><a href="./dynamic.html">公司动态</a></li>
             <li class="nav"><a class="selected" href="./message.html">在线留言</a></li>
             <li class="nav"><a href="./contact.html">联系我们</a></li>
         </ul>
@@ -95,17 +95,14 @@
     </div>
     <div class="footer"></div>
     <script>
-    var pager = $('#pager').paginate({
+    $('#pager').paginate({
         prevPageName: '上一页',
         nextPageName: '下一页',
         firstPageName: '第一页',
         lastPageName: '最后一页',
         pageIndex: 0, //当前页数
         totlePageCount: 16, //总页数
-        maxBtnCount: 7, //按钮数量最多有
-        callback: function (res) {
-          console.log(res);
-        }
+        maxBtnCount: 7 //按钮数量最多有
     });
     </script>
 </body>

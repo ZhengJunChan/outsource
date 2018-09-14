@@ -1,0 +1,47 @@
+.dynamic .nav {
+    width: 20%;
+    float: left;
+    cursor: pointer;
+}
+
+.dynamic .nav.selected {
+    border: 0;
+}
+
+.box {
+    padding: 50px 0;
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.box .item {
+    position: relative;
+    padding: 40px 0 40px 325px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.box .cover_img {
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+
+.box .content {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 15px 0;
+}
+
+.box .desc {
+    font-size: 16px;
+    color: #999;
+}
+
+.box .desc .time{
+    padding-right: 50px;
+}
+
+.box .desc .read{
+    padding-left: 36px;
+    background: url(./../imgs/dynamic/icon_join_read_gray.png) left center no-repeat;
+}
