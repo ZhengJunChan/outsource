@@ -1,0 +1,15 @@
+.about .nav{
+	width: 33.333%;
+	float: left;
+	cursor: pointer;
+}
+.about .nav.selected{
+	border: 0;
+}
+.box{
+	padding: 50px 0;
+}
+.box .content{
+	width: 1300px;
+	margin: 0 auto;
+}
