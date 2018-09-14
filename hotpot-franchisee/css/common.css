@@ -176,12 +176,9 @@ li {
 }
 .sub_nav .nav.selected{
   height: 70px;
-  text-align: center;
-  display: inline-block;
   background-color: #7c0000;
 }
 .sub_nav .nav+.nav{
-  height: 60px;
   border-left: 1px solid #fff;
 }
 .img_show{

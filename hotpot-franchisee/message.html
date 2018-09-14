@@ -1,47 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>安大厨火锅</title>
     <meta content="yes" name="apple-mobile-web-app-capable">
     <link type="favicon" rel="shortcut icon" href="/static/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="description"
-          content="源音塘是全新的以二次元音乐为主的音乐社区。这里有让耳朵怀孕的丰富良曲、极富魅力的音乐人和偶尔破次元的音乐同好。每天,故事和音乐都在这里"/>
-    <meta name="keywords" content="安大厨火锅|火锅|火锅加盟|加盟火锅"/>
-    <meta name="fragment" content="!"/>
+    <meta name="description" content="源音塘是全新的以二次元音乐为主的音乐社区。这里有让耳朵怀孕的丰富良曲、极富魅力的音乐人和偶尔破次元的音乐同好。每天,故事和音乐都在这里" />
+    <meta name="keywords" content="安大厨火锅|火锅|火锅加盟|加盟火锅" />
+    <meta name="fragment" content="!" />
+    <link rel="stylesheet" href="./libs/pagination/pagination.css">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/contact.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="./css/message.css">
+    <script src="./libs/jquery.min.js" language=JavaScript></script>
+    <script src="./libs/pagination/jquery.pagination.js" language=JavaScript></script>
+</head>
+
+<body>
     <!-- 菜单栏 -->
     <div class="header">
-      <ul class="navs">
-        <li class="nav"><a class="selected" href="./index.html">首页</a></li>
-        <li class="nav"><a href="./join.html">火锅加盟</a></li>
-        <li class="nav"><a href="./train.html">培训学校</a></li>
-        <li class="nav"><a href="./plan.html">品牌策划</a></li>
-        <li class="nav logo"><a href="./index.html"><img src="./imgs/radius-logo.png"></a></li>
-        <li class="nav"><a href="./about.html">关于我们</a></li>
-        <li class="nav"><a href="./dynamic/index.html">公司动态</a></li>
-        <li class="nav"><a href="./message.html">在线留言</a></li>
-        <li class="nav"><a class="selected" href="./contact.html">联系我们</a></li>
-      </ul>
+        <ul class="navs">
+            <li class="nav"><a class="selected" href="./index.html">首页</a></li>
+            <li class="nav"><a href="./join.html">火锅加盟</a></li>
+            <li class="nav"><a href="./train.html">培训学校</a></li>
+            <li class="nav"><a href="./plan.html">品牌策划</a></li>
+            <li class="nav logo"><a href="./index.html"><img src="./imgs/radius-logo.png"></a></li>
+            <li class="nav"><a href="./about.html">关于我们</a></li>
+            <li class="nav"><a href="./dynamic/index.html">公司动态</a></li>
+            <li class="nav"><a href="./message.html">在线留言</a></li>
+            <li class="nav"><a class="selected" href="./contact.html">联系我们</a></li>
+        </ul>
     </div>
     <!-- / 菜单栏 -->
-
     <div class="container">
-      <div class="img_show">
-        <img src="./imgs/join/img_banner_join.png">
-      </div>
-      <div class="sub_nav contact">
-        <a class="nav selected" href="./contact.html">联系我们</a>
-        <a class="nav" href="./message.html">留言板</a>
-      </div>
-      <div class="box">
-      </div>
+        <div class="img_show">
+            <img src="./imgs/join/img_banner_join.png">
+        </div>
+        <div class="sub_nav contact">
+            <a class="nav" href="./contact.html">联系我们</a>
+            <a class="nav selected" href="./message.html">留言板</a>
+        </div>
+        <div class="box">
+            <h1 class="title">留言板</h1>
+            <ul class="list">
+                <li>
+                    <div>
+                        留言：
+                        <span>李先生</span>
+                        <span class="time">2014-02-23</span>
+                    </div>
+                    <div class="content">内容内容内容</div>
+                    <div class="reply">安大厨火锅：感谢您关注安大厨火锅，已安排专属的招商经理与您联系！</div>
+                </li>
+                <li>
+                    <div>
+                        留言：
+                        <span>李先生</span>
+                        <span class="time">2014-02-23</span>
+                    </div>
+                    <div class="content">内容内容内容</div>
+                    <div class="reply">安大厨火锅：感谢您关注安大厨火锅，已安排专属的招商经理与您联系！</div>
+                </li>
+                <li>
+                    <div>
+                        留言：
+                        <span>李先生</span>
+                        <span class="time">2014-02-23</span>
+                    </div>
+                    <div class="content">内容内容内容</div>
+                    <div class="reply">安大厨火锅：感谢您关注安大厨火锅，已安排专属的招商经理与您联系！</div>
+                </li>
+                <li>
+                    <div>
+                        留言：
+                        <span>李先生</span>
+                        <span class="time">2014-02-23</span>
+                    </div>
+                    <div class="content">内容内容内容</div>
+                    <div class="reply">安大厨火锅：感谢您关注安大厨火锅，已安排专属的招商经理与您联系！</div>
+                </li>
+                <li>
+                    <div>
+                        留言：
+                        <span>李先生</span>
+                        <span class="time">2014-02-23</span>
+                    </div>
+                    <div class="content">内容内容内容</div>
+                    <div class="reply">安大厨火锅：感谢您关注安大厨火锅，已安排专属的招商经理与您联系！</div>
+                </li>
+            </ul>
+            <div id="pager"></div>
+        </div>
     </div>
-
     <div class="footer"></div>
-  </body>
+    <script>
+    var pager = $('#pager').paginate({
+        prevPageName: '上一页',
+        nextPageName: '下一页',
+        firstPageName: '第一页',
+        lastPageName: '最后一页',
+        pageIndex: 0, //当前页数
+        totlePageCount: 16, //总页数
+        maxBtnCount: 7, //按钮数量最多有
+        callback: function (res) {
+          console.log(res);
+        }
+    });
+    </script>
+</body>
+
 </html>

@@ -1,13 +1,37 @@
 .contact .nav{
 	width: 50%;
-	margin-left: -6px;
 }
 .contact .nav.selected{
-	position: relative;
-	z-index: 2;
-	margin-left: 0;
+	margin-left: -6px;
+	border: 0;
 }
 .box{
-	text-align: center;
+	width: 1300px;
+	margin: 0 auto;
 	padding: 50px 0;
+	font-size: 18px;
+}
+.box .title{
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #000;
+}
+.list li{
+	margin-top: 20px;
+	padding: 20px 30px;
+	background-color: #f6f6f6;
+}
+.list .time{
+	padding-left: 75px;
+	color: #999999;
+	font-size: 14px;
+}
+.list .content{
+	font-size: 16px;
+	line-height: 26px;
+	margin: 15px 0 10px;
+}
+.list .reply{
+	font-size: 16px;
+	color: #db0707;
 }
