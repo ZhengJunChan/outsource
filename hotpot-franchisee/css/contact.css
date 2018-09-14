@@ -1,0 +1,58 @@
+.contact .nav{
+	width: 50%;
+	margin-left: -6px;
+}
+.contact .nav.selected{
+	position: relative;
+	z-index: 2;
+	margin-left: 0;
+}
+.box{
+	text-align: center;
+	padding: 50px 0;
+}
+.box .item{
+	vertical-align: top;
+	display: inline-block;
+}
+.box .map,
+.box .map_img{
+	height: 100%;
+}
+.box .infos{
+	text-align: left;
+	line-height: 44px;
+	margin-left: 40px;
+}
+.box .infos .title{
+	margin-bottom: 20px;
+}
+.box .infos>p{
+	padding-left: 42px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.infos .addr{
+	background-image: url(./../imgs/contact/icon_contant_dizhi.png);
+}
+
+.infos .focus_fax{
+	background-image: url(./../imgs/contact/icon_contant_zongji.png);
+}
+
+.infos .fax{
+	background-image: url(./../imgs/contact/icon_contant_chuanzhen.png);
+}
+
+.infos .hot_tel{
+	background-image: url(./../imgs/contact/icon_contant_kefurexian.png);
+}
+
+.infos .jion_tel{
+	background-image: url(./../imgs/contact/icon_contant_rexian.png);
+}
+
+.infos .email{
+	background-image: url(./../imgs/contact/icon_contant_youxiang.png);
+}

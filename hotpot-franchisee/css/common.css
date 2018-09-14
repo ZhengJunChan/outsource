@@ -160,3 +160,30 @@ li {
     display: block;
     background-color: #fff;
 }
+.sub_nav{
+  width: 1300px;
+  margin: 0 auto;
+  font-size: 18px;
+  border-top: 1px solid #fff;
+}
+.sub_nav .nav{
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  display: inline-block;
+  background-color: #020106;
+}
+.sub_nav .nav.selected{
+  height: 70px;
+  text-align: center;
+  display: inline-block;
+  background-color: #7c0000;
+}
+.sub_nav .nav+.nav{
+  height: 60px;
+  border-left: 1px solid #fff;
+}
+.img_show{
+  background-color: #000;
+}

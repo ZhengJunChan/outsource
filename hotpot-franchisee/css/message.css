@@ -1,0 +1,13 @@
+.contact .nav{
+	width: 50%;
+	margin-left: -6px;
+}
+.contact .nav.selected{
+	position: relative;
+	z-index: 2;
+	margin-left: 0;
+}
+.box{
+	text-align: center;
+	padding: 50px 0;
+}

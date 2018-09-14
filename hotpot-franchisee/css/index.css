@@ -11,9 +11,9 @@
     background: url(./../imgs/home/bg2.png) center/cover;
 }
 
-
-.jia_meng .ad_img {
-    height: 100%;
+.jia_meng .price_tip {
+    color: #fff;
+    font-size: 30px;
 }
 
 .server {
