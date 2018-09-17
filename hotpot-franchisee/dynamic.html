@@ -129,6 +129,7 @@
     </div>
     <div class="footer"></div>
     <script>
+    /****************  分页  ****************/
     $('#pager').paginate({
         prevPageName: '上一页',
         nextPageName: '下一页',
@@ -138,6 +139,9 @@
         totlePageCount: 16, //总页数
         maxBtnCount: 7 //按钮数量最多有
     });
+    /****************  / 分页  ****************/
+
+    /****************  点击页面菜单  ****************/
     $(".nav").on("click", function() {
         if ($(this).hasClass("selected")) {
             return;
@@ -146,6 +150,7 @@
         $(".sub_nav .selected").removeClass("selected");
         $(this).addClass("selected");
     });
+    /****************  / 点击页面菜单  ****************/
     </script>
 </body>
 
