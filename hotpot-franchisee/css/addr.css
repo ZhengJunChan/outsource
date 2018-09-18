@@ -1,0 +1,167 @@
+.addr .content {
+    width: 1300px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.addr .point_text {
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+.addr .point_desc {
+    font-size: 18px;
+    margin: 20px 0 45px;
+}
+
+.addr .add_tag {
+    height: 56px;
+    display: inline-block;
+    line-height: 56px;
+    cursor: pointer;
+    padding: 0 20px;
+    border: 1px solid #000;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.addr .add_tag.selected,
+.addr .add_tag:hover {
+    color: #fff;
+    background-color: #000;
+}
+
+.addr .biaozhun1 {
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.addr .type_box .item {
+    width: 300px;
+    cursor: pointer;
+    position: relative;
+}
+
+.addr .type_box .item:hover .hidden,
+.addr .type_box .item.selected .hidden,
+.addr .type_box .item .show {
+    display: none;
+}
+
+.addr .type_box .item:hover .show,
+.addr .type_box .item.selected .show {
+    display: block;
+}
+
+.addr .type_box .type_img {
+    width: 100%;
+}
+
+.addr .type_box {
+    margin-top: 30px;
+}
+
+.addr .type_box .store,
+.addr .type_box .store_box {
+    color: #fff;
+    padding: 10px;
+    background-color: #db0707;
+    font-size: 27px;
+}
+
+.addr .type_box .store_box,
+.addr .type_box .bottom_box {
+    height: 90px;
+    margin-top: -4px;
+}
+
+.addr .type_box .store_box {
+    line-height: 65px;
+}
+
+.addr .type_box .bottom_box {
+    color: #fff;
+    font-size: 23px;
+    padding-top: 12px;
+    line-height: 33px;
+    background-color: #000;
+}
+
+.addr .type_box .store {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    writing-mode: vertical-lr;
+    writing-mode: tb-lr;
+}
+
+.addr .type_box .item+.item {
+    margin-left: 33px;
+}
+
+.selecte_box {
+    width: 960px;
+    margin: 30px auto 0;
+}
+
+.selecte_box .title,
+.selecte_box .submit_btn {
+    text-align: center;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #db0707;
+}
+
+.selecte_box .title {
+    height: 50px;
+    line-height: 50px;
+}
+
+.selecte_box .btn_label {
+    height: 70px;
+    padding: 15px 0;
+    background-color: #312f30;
+}
+
+.selecte_box .submit_btn {
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form {
+    padding-bottom: 30px;
+    background-color: #646061;
+}
+
+.form .item {
+    width: 280px;
+    height: 40px;
+    padding: 0 10px 0 125px;
+    position: relative;
+    line-height: 40px;
+    margin: 30px 0 0 25px;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.form .input {
+     padding: 0 10px 0 60px;
+}
+
+.form .item:nth-child(3n+1) {
+    margin-left: 0;
+}
+
+.form select,
+.form input {
+    width: 100%;
+    border: 0;
+}
+
+.form .option_name {
+    position: absolute;
+    left: 10px;
+}
