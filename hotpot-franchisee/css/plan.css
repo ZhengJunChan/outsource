@@ -125,6 +125,7 @@
 
 .feature_item {
     width: 256px;
+    vertical-align: top;
     display: inline-block;
 }
 
