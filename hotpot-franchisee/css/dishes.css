@@ -1,0 +1,83 @@
+.dishes_page .content{
+	width: 1300px;
+	margin: 50px auto;
+}
+
+.location{
+	color: #7f7f7f;
+	padding-left: 26px;
+	background: url(./../imgs/dishes/img_show_home.png) 10px center no-repeat;
+}
+
+.item_title{
+	padding: 15px 7px;
+	position: relative;
+	border-bottom: 2px solid #fd0002;
+}
+
+.item_title .label{
+	font-size: 42px;
+	font-weight: bold;
+}
+
+.item_title .red_font{
+	color: #f90300;
+}
+
+.item_title .display{
+	font-size: 26px;
+}
+
+.item_title .type_list{
+	position: absolute;
+	right: 0;
+	bottom: 15px;
+}
+
+.item_title .type_list .type{
+	display: inline-block;
+	padding: 10px 25px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 4px;
+	text-align: center;
+	margin-left: 20px;
+	cursor: pointer;
+	background-color: #fb0000;
+}
+
+.item_title .type_list .type.selected{
+	background-color: #010101;
+}
+
+.dishes{
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.dishes .item{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+.dishes .item:nth-child(3n+1){
+	margin-left: 0;
+}
+
+.dishes .cover_img{
+	width: 100%;
+	height: 100%;
+}
+
+.dishes .title{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.dishes .img_box{
+	width: 400px;
+	height: 265px;
+	border: 1px solid #c4c4c4;
+}

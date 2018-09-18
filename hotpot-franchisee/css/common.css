@@ -184,3 +184,6 @@ li {
 .img_show{
   background-color: #000;
 }
+img{
+  max-width: 100%;
+}
