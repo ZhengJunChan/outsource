@@ -40,6 +40,7 @@ li {
 
 
 
+
 /**
  * [text_nowrap_ellipsis 文字超出后添加省略号]
  * @Author   郑君婵
@@ -51,6 +52,7 @@ li {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
 
 
 
@@ -80,6 +82,7 @@ li {
 
 
 
+
 /**
  * [clear_float 向左浮动]
  * @Author   郑君婵
@@ -89,6 +92,7 @@ li {
 .fl {
     float: left;
 }
+
 
 
 
@@ -217,16 +221,37 @@ img {
 }
 
 .footer input,
+.footer textarea,
 .footer button {
-    display: block;
     width: 260px;
-    padding: 0 10px;
+    padding: 10px;
     height: 36px;
     margin-top: 10px;
 }
 
+.footer button,
+.footer textarea {
+    display: block;
+    width: 400px;
+}
+
+.footer textarea {
+    resize: none;
+    height: 60px;
+    line-height: 20px;
+}
+
+.footer .input_label {
+    width: 400px;
+}
+
+.footer input {
+    width: 195px;
+}
+
 .footer button {
     color: #fff;
+    cursor: pointer;
     text-align: center;
     background-color: #550403;
 }
@@ -234,12 +259,12 @@ img {
 .footer .contact_box {
     position: absolute;
     top: 0;
-    left: 500px;
+    left: 540px;
 }
 
 .footer .contact_item {
     padding-left: 35px;
-    margin-top: 7px;
+    margin-top: 11px;
     background-position: 5px center;
     background-repeat: no-repeat;
 }
@@ -259,20 +284,21 @@ img {
 .footer .contact_item:nth-child(4) {
     background-image: url(./../imgs/join/icon_bottom_mailbox.png);
 }
+
 .footer .contact_item:nth-child(5) {
     background-image: url(./../imgs/join/icon_bottom_comment.png);
 }
 
 .footer .erweima_box {
-  position: absolute;
-  top: 10px;
-  right: 0;
+    position: absolute;
+    top: 30px;
+    right: 0;
     text-align: center;
 }
 
 .footer .erweima_item {
-  display: inline-block;
-  margin-left: 15px;
+    display: inline-block;
+    margin-left: 15px;
 }
 
 .footer .erweima_img {
@@ -280,5 +306,4 @@ img {
     height: 120px;
 }
 
-.footer .name {
-}
+.footer .name {}
