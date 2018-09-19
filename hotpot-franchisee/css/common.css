@@ -149,6 +149,7 @@ li {
     top: 0;
     left: 50%;
     margin-left: -110px;
+    z-index: 1;
 }
 
 .header .logo a img {

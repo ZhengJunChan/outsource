@@ -511,61 +511,18 @@
     padding: 50px 0;
 }
 
-.train .selected_points .title {
-    text-align: center;
-    line-height: 35px;
-    margin-bottom: 30px;
-}
-
-.train .selected_points .title h2 {
-    font-weight: normal;
-}
-
-.train .selected_points h3 {
-    color: #e12024;
-}
-
-.train .selected_points .points+.points {
-    margin-top: 30px;
-}
-
-.train .selected_points .points>img {
-    width: 465px;
-    height: 310px;
-}
-
-.train .selected_points .item {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
-    overflow: hidden;
-    width: 800px;
-    height: 140px;
-    padding: 10px 20px;
-    border: 1px solid #000;
-    line-height: 30px;
-}
-
-.train .selected_points .item+.item {
-    margin-top: 30px;
+.train .selected_points .points{
+    padding-top: 50px;
 }
 
 .article {
-    position: relative;
-    padding-left: 465px;
-    height: 730px;
+    padding-bottom: 50px;
 }
 
-.article .cover_img {
+.article .fr {
+    width: 600px;
+}
+
+.article .fl {
     width: 465px;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-.article .content {
-    padding: 0 30px;
-    height: 100%;
-    overflow: hidden;
 }
