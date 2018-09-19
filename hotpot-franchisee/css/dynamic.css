@@ -15,6 +15,7 @@
 }
 
 .box .item {
+    display: block;
     position: relative;
     padding: 40px 0 40px 325px;
     border-bottom: 1px solid #e6e6e6;
