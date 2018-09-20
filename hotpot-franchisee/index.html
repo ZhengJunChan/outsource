@@ -12,11 +12,16 @@
     <meta name="fragment" content="!"/>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/index.css">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="./libs/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./libs/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="./libs/jquery.min.js" language=JavaScript></script>
+    <script src="./libs/owlcarousel/owl.carousel.js"></script>
   </head>
   <body>
     <!-- 菜单栏 -->
     <div class="header">
-      <ul class="navs">
+      <ul class="navs min_content">
         <li class="nav"><a class="selected" href="./index.html">首页</a></li>
         <li class="nav"><a href="./join.html">火锅加盟</a></li>
         <li class="nav"><a href="./train.html">培训学校</a></li>
@@ -202,7 +207,7 @@
       <div class="store">
         <div>
           <h2>安大厨实战经验门店</h2>
-          <ul>
+          <ul class="banner owl-carousel owl-theme">
             <li>
               <img src="http://iph.href.lu/370x205">
             </li>
@@ -227,7 +232,7 @@
       <div class="dishes">
         <div>
           <h2>品牌菜品展示</h2>
-          <ul>
+          <ul class="banner owl-carousel owl-theme">
             <li>
               <img src="http://iph.href.lu/370x275">
               <h3 class="text_nowrap_ellipsis">麻辣牛肉</h3>
@@ -481,5 +486,15 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $(".banner").owlCarousel({
+            items: 3,
+            loop: true,
+            center: true,
+            autoplay: true
+        });
+    });
+    </script>
   </body>
 </html>
